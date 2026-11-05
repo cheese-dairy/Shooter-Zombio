@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250ffbcaccf35648bc3e45a45ba7209f, type: 3}
+  m_Name: GameTuning
+  m_EditorClassIdentifier: 
+  Health: 100
+  Stamina: 100
+  WalkSpeed: 2.4
+  RunSpeed: 4.9
+  SprintSpeed: 8
+  JumpHeight: 1.4
+  CameraDistance: 5
+  ShoulderOffset: 0.6
+  Waves:
+    InitialCount: 6
+    ExtraPerWave: 3
+    MaximumCount: 72
+    BossInterval: 10
+    HealthGrowth: 0.075
+    DamageGrowth: 0.035
+    MaximumHealthMultiplier: 4
+    MaximumDamageMultiplier: 2.5
+    RunnerWeight: 0.22
+    BruteWeight: 0.15
+    SpitterWeight: 0.13
+    ExploderWeight: 0.12
+  MaximumAlive: 22
+  Intermission: 12
+  SpawnInterval: 0.85
+  PickupDropChance: 0.35
+  Weapons: []

@@ -1,0 +1,6 @@
+{
+  "name": "Zombio.Editor",
+  "rootNamespace": "Zombio.Editor",
+  "references": ["Zombio.Runtime"],
+  "includePlatforms": ["Editor"]
+}
